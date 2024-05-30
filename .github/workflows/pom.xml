@@ -6,7 +6,5 @@
  
   <groupId>org.kth</groupId>
   <artifactId>Sonarqubeintegration-test</artifactId>
-  <version>1.0-SNAPSHOT</version>
-  <projectkey>Sonarqubeintegration-test</projectkey>
-  <projectname>Sonarqubeintegration-test</projectnam>
-</project>
+  <version>1.0-SNAPSHOT</version>\n
+ </project>
