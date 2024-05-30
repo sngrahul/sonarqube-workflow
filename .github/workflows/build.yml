@@ -34,4 +34,4 @@ jobs:
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
-        run: mvn -f .github/workflows/*.xml verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=Sonarqubeintegration-test -Dsonar.projectName='Sonarqubeintegration-test'
+        run: mvn -f .github/workflows/* verify org.sonarsource.scanner.maven:sonar-maven-plugin:sonar -Dsonar.projectKey=Sonarqubeintegration-test -Dsonar.projectName='Sonarqubeintegration-test'
